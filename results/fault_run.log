@@ -1,0 +1,16 @@
+ShieldedMempool research prototype | MODP p=2048bits, q=2047bits
+Fault scenario: healthy
+Fault scenario: two_offline
+Fault scenario: five_offline
+Fault scenario: three_invalid
+Fault scenario: three_withhold
+Fault scenario: six_offline_fails
+Fault scenario: slow_committee
+Saved results/faults.json
+healthy PASS 19970.044
+two_offline PASS 21479.136
+five_offline PASS 14682.314
+three_invalid PASS 21799.401
+three_withhold PASS 17450.146
+six_offline_fails EXPECTED FAILURE 1426.273
+slow_committee PASS 16450.512

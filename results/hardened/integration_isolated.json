@@ -1,0 +1,30 @@
+[
+  {
+    "test": "tests/test_gateway_v2.py::test_gateway_actual_client_rpc_with_committee",
+    "passed": true,
+    "elapsed_s": 4.45,
+    "stdout": ".                                                                        [100%]\n1 passed in 2.08s\n",
+    "stderr": ""
+  },
+  {
+    "test": "tests/test_gateway_v2.py::test_attacks_through_real_sixteen_processes",
+    "passed": true,
+    "elapsed_s": 14.08,
+    "stdout": ".                                                                        [100%]\n1 passed in 12.11s\n",
+    "stderr": ""
+  },
+  {
+    "test": "tests/test_gateway_v2.py::test_keystore_and_pending_queue_survive_restart",
+    "passed": true,
+    "elapsed_s": 5.17,
+    "stdout": ".                                                                        [100%]\n1 passed in 2.59s\n",
+    "stderr": ""
+  },
+  {
+    "test": "tests/test_network.py::test_00_real_sixteen_process_threshold_block",
+    "passed": true,
+    "elapsed_s": 8.84,
+    "stdout": ".                                                                        [100%]\n1 passed in 6.96s\n",
+    "stderr": ""
+  }
+]

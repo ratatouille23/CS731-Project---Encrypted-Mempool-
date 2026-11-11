@@ -1,0 +1,9 @@
+[
+  {
+    "scenario": "six_offline_fails",
+    "success": false,
+    "latency_ms": 240.277,
+    "error": "Only 10 votes; need 11",
+    "online_nodes": 10
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "scenario": "healthy",
+    "success": true,
+    "latency_ms": 2680.24,
+    "online_nodes": 16,
+    "rejected_shares": 0,
+    "block_height": 1
+  },
+  {
+    "scenario": "two_offline",
+    "success": true,
+    "latency_ms": 2406.888,
+    "online_nodes": 14,
+    "rejected_shares": 0,
+    "block_height": 2
+  },
+  {
+    "scenario": "five_offline",
+    "success": true,
+    "latency_ms": 2238.526,
+    "online_nodes": 11,
+    "rejected_shares": 0,
+    "block_height": 3
+  },
+  {
+    "scenario": "three_invalid",
+    "success": true,
+    "latency_ms": 2982.483,
+    "online_nodes": 16,
+    "rejected_shares": 3,
+    "block_height": 4
+  },
+  {
+    "scenario": "three_withhold",
+    "success": true,
+    "latency_ms": 2414.936,
+    "online_nodes": 16,
+    "rejected_shares": 0,
+    "block_height": 5
+  },
+  {
+    "scenario": "slow_committee",
+    "success": true,
+    "latency_ms": 2597.894,
+    "online_nodes": 16,
+    "rejected_shares": 0,
+    "block_height": 6
+  },
+  {
+    "scenario": "six_offline_fails",
+    "success": false,
+    "latency_ms": 223.654,
+    "online_nodes": 10,
+    "error": "Only 10 votes; need 11"
+  }
+]

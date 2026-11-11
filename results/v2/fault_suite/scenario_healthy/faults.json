@@ -1,0 +1,9 @@
+[
+  {
+    "scenario": "healthy",
+    "success": true,
+    "latency_ms": 2794.171,
+    "rejected_shares": 0,
+    "online_nodes": 16
+  }
+]

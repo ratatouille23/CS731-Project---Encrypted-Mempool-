@@ -1,0 +1,56 @@
+[
+  {
+    "mode": "plaintext",
+    "batch_size": 1,
+    "repetitions": 1,
+    "latency_mean_ms": 33.76,
+    "latency_p50_ms": 33.76,
+    "latency_p95_ms": null,
+    "latency_p99_ms": null
+  },
+  {
+    "mode": "plaintext",
+    "batch_size": 2,
+    "repetitions": 1,
+    "latency_mean_ms": 23.998,
+    "latency_p50_ms": 23.998,
+    "latency_p95_ms": null,
+    "latency_p99_ms": null
+  },
+  {
+    "mode": "plaintext",
+    "batch_size": 4,
+    "repetitions": 1,
+    "latency_mean_ms": 36.434,
+    "latency_p50_ms": 36.434,
+    "latency_p95_ms": null,
+    "latency_p99_ms": null
+  },
+  {
+    "mode": "threshold_encrypted",
+    "batch_size": 1,
+    "repetitions": 1,
+    "latency_mean_ms": 3868.951,
+    "latency_p50_ms": 3868.951,
+    "latency_p95_ms": null,
+    "latency_p99_ms": null
+  },
+  {
+    "mode": "threshold_encrypted",
+    "batch_size": 2,
+    "repetitions": 1,
+    "latency_mean_ms": 7938.654,
+    "latency_p50_ms": 7938.654,
+    "latency_p95_ms": null,
+    "latency_p99_ms": null
+  },
+  {
+    "mode": "threshold_encrypted",
+    "batch_size": 4,
+    "repetitions": 1,
+    "latency_mean_ms": 16655.948,
+    "latency_p50_ms": 16655.948,
+    "latency_p95_ms": null,
+    "latency_p99_ms": null
+  }
+]

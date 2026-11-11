@@ -1,0 +1,16 @@
+{
+  "project_version": "0.2.0",
+  "python_version": "3.13.5",
+  "implementation": "threshold ElGamal O(nB) with 16 TCP nodes, not secure O(n) pairing BTE",
+  "unit_tests_observed": 9,
+  "integration_tests_verified_individually": 6,
+  "integrated_network_attack_passed": true,
+  "queue_bench_batch_sizes": [
+    1,
+    2,
+    4
+  ],
+  "fault_scenarios": 7,
+  "fault_expected_failure": "six_offline_fails",
+  "notes": "Timed outputs are single-run on local Python processes; no formal security proof."
+}

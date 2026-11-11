@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "language": "Python",
+  "python_runtime": "3.13.5",
+  "architecture": "x86_64",
+  "benchmark_environment": "Linux x86_64 container, 5 visible Intel Xeon Platinum 8573C vCPUs",
+  "committee_nodes": 16,
+  "threshold": 11,
+  "crypto_group": "RFC3526 MODP group14 2048-bit prime subgroup",
+  "benchmark_batch_sizes": [
+    1,
+    2,
+    4
+  ],
+  "benchmark_repetitions_per_size": 1,
+  "fault_batch_size": 4,
+  "fault_scenarios": 7,
+  "privacy_samples": 160,
+  "privacy_seed": 42,
+  "qualification": "Reference-only smoke experiments; Python unoptimized threshold ElGamal with O(nB) decryption communication; not modern batched threshold encryption",
+  "tests": "5 passed, 3 opt-in multiprocess tests deselected (automated suite); 16-node demo, benchmark and fault CLI executed"
+}

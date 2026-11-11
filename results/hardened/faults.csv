@@ -1,0 +1,9 @@
+scenario,success,latency_ms,online_nodes,rejected_shares,block_height,error,same_block_hash
+healthy,True,1523.906,16,0,1,,
+two_offline,True,1331.543,14,0,2,,
+five_offline,True,1039.334,11,0,3,,
+three_invalid,True,1409.178,16,3,4,,
+three_withhold,True,1093.87,16,3,5,,
+six_offline_fails,False,134.771,10,,,Only 10 votes; need 11,
+six_offline_recovery,True,1394.938,16,,6,,True
+slow_committee,True,1569.94,16,0,7,,

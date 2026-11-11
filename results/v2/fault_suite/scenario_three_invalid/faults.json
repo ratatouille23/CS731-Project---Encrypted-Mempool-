@@ -1,0 +1,9 @@
+[
+  {
+    "scenario": "three_invalid",
+    "success": true,
+    "latency_ms": 2914.581,
+    "rejected_shares": 3,
+    "online_nodes": 16
+  }
+]

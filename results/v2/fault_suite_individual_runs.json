@@ -1,0 +1,58 @@
+[
+  {
+    "scenario": "healthy",
+    "success": true,
+    "latency_ms": 2794.171,
+    "rejected_shares": 0,
+    "online_nodes": 16,
+    "run_provenance": "results/v2/fault_suite/scenario_healthy/faults.json"
+  },
+  {
+    "scenario": "two_offline",
+    "success": true,
+    "latency_ms": 2298.308,
+    "rejected_shares": 0,
+    "online_nodes": 14,
+    "run_provenance": "results/v2/fault_suite/scenario_two_offline/faults.json"
+  },
+  {
+    "scenario": "five_offline",
+    "success": true,
+    "latency_ms": 2137.711,
+    "rejected_shares": 0,
+    "online_nodes": 11,
+    "run_provenance": "results/v2/fault_suite/scenario_five_offline/faults.json"
+  },
+  {
+    "scenario": "three_invalid",
+    "success": true,
+    "latency_ms": 2914.581,
+    "rejected_shares": 3,
+    "online_nodes": 16,
+    "run_provenance": "results/v2/fault_suite/scenario_three_invalid/faults.json"
+  },
+  {
+    "scenario": "three_withhold",
+    "success": true,
+    "latency_ms": 2485.019,
+    "rejected_shares": 0,
+    "online_nodes": 16,
+    "run_provenance": "results/v2/withhold/faults.json"
+  },
+  {
+    "scenario": "six_offline_fails",
+    "success": false,
+    "latency_ms": 240.277,
+    "error": "Only 10 votes; need 11",
+    "online_nodes": 10,
+    "run_provenance": "results/v2/six/faults.json"
+  },
+  {
+    "scenario": "slow_committee",
+    "success": true,
+    "latency_ms": 2702.876,
+    "rejected_shares": 0,
+    "online_nodes": 16,
+    "run_provenance": "results/v2/slow2/faults.json"
+  }
+]

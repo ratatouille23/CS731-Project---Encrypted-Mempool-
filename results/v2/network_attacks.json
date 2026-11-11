@@ -1,0 +1,26 @@
+{
+  "vulnerable": {
+    "committee_nodes": 16,
+    "threshold": 11,
+    "malicious_ciphertext_selected": true,
+    "original_victim_excluded_and_pending": true,
+    "malleability_original_recovered": true,
+    "epoch_key_shares_released": 11,
+    "epoch_key_attack_recovered_excluded": true,
+    "finality_before_early_release": true,
+    "included_block_latency_ms": 1847.842,
+    "attack_description": "Naive XOR ciphertext admits related-ciphertext substitutions; a separate naive epoch key-release RPC reveals queued excluded ciphertexts."
+  },
+  "defended": {
+    "committee_nodes": 16,
+    "threshold": 11,
+    "gateway_rejected_malleated_ciphertext": true,
+    "committee_rejected_malleated_proposal": true,
+    "no_shares_released_without_finality": true,
+    "victim_remains_pending_after_unrelated_finalized_block": true,
+    "committee_refused_epoch_key_disclosure": true,
+    "defended_block_latency_ms": 2552.532,
+    "claim_limit": "Checks the specified tampering and epoch-key attacks; not an IND-CCA2 security proof."
+  },
+  "passed": true
+}

@@ -1,0 +1,2 @@
+scenario,success,latency_ms,rejected_shares,online_nodes
+three_withhold,True,2533.416,0,16

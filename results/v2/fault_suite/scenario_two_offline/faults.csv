@@ -1,0 +1,2 @@
+scenario,success,latency_ms,rejected_shares,online_nodes
+two_offline,True,2298.308,0,14

@@ -1,0 +1,65 @@
+[
+  {
+    "scenario": "healthy",
+    "success": true,
+    "latency_ms": 1523.906,
+    "online_nodes": 16,
+    "rejected_shares": 0,
+    "block_height": 1
+  },
+  {
+    "scenario": "two_offline",
+    "success": true,
+    "latency_ms": 1331.543,
+    "online_nodes": 14,
+    "rejected_shares": 0,
+    "block_height": 2
+  },
+  {
+    "scenario": "five_offline",
+    "success": true,
+    "latency_ms": 1039.334,
+    "online_nodes": 11,
+    "rejected_shares": 0,
+    "block_height": 3
+  },
+  {
+    "scenario": "three_invalid",
+    "success": true,
+    "latency_ms": 1409.178,
+    "online_nodes": 16,
+    "rejected_shares": 3,
+    "block_height": 4
+  },
+  {
+    "scenario": "three_withhold",
+    "success": true,
+    "latency_ms": 1093.87,
+    "online_nodes": 16,
+    "rejected_shares": 3,
+    "block_height": 5
+  },
+  {
+    "scenario": "six_offline_fails",
+    "success": false,
+    "latency_ms": 134.771,
+    "online_nodes": 10,
+    "error": "Only 10 votes; need 11"
+  },
+  {
+    "scenario": "six_offline_recovery",
+    "success": true,
+    "latency_ms": 1394.938,
+    "online_nodes": 16,
+    "same_block_hash": true,
+    "block_height": 6
+  },
+  {
+    "scenario": "slow_committee",
+    "success": true,
+    "latency_ms": 1569.94,
+    "online_nodes": 16,
+    "rejected_shares": 0,
+    "block_height": 7
+  }
+]

@@ -1,0 +1,8 @@
+scenario,success,latency_ms,online_nodes,rejected_shares,block_height,error
+healthy,True,2680.24,16,0,1,
+two_offline,True,2406.888,14,0,2,
+five_offline,True,2238.526,11,0,3,
+three_invalid,True,2982.483,16,3,4,
+three_withhold,True,2414.936,16,0,5,
+slow_committee,True,2597.894,16,0,6,
+six_offline_fails,False,223.654,10,,,Only 10 votes; need 11

@@ -1,0 +1,67 @@
+[
+  {
+    "policy": "direct",
+    "samples": 160,
+    "seed": 42,
+    "observer_sees_plaintext_simulations": true,
+    "linked_fraction": 1.0,
+    "linked_count": 160,
+    "visible_simulation_count": 160,
+    "mean_added_delay_ms": 5.387,
+    "mean_padding_bytes": 0,
+    "unique_public_metadata_fraction": 0.0187,
+    "interpretation": "Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof."
+  },
+  {
+    "policy": "fixed_padding",
+    "samples": 160,
+    "seed": 42,
+    "observer_sees_plaintext_simulations": true,
+    "linked_fraction": 0.9875,
+    "linked_count": 158,
+    "visible_simulation_count": 160,
+    "mean_added_delay_ms": 5.387,
+    "mean_padding_bytes": 277.025,
+    "unique_public_metadata_fraction": 0.0187,
+    "interpretation": "Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof."
+  },
+  {
+    "policy": "padding_jitter",
+    "samples": 160,
+    "seed": 42,
+    "observer_sees_plaintext_simulations": true,
+    "linked_fraction": 0.8688,
+    "linked_count": 139,
+    "visible_simulation_count": 160,
+    "mean_added_delay_ms": 395.158,
+    "mean_padding_bytes": 270.106,
+    "unique_public_metadata_fraction": 0.0,
+    "interpretation": "Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof."
+  },
+  {
+    "policy": "adaptive",
+    "samples": 160,
+    "seed": 42,
+    "observer_sees_plaintext_simulations": true,
+    "linked_fraction": 0.9,
+    "linked_count": 144,
+    "visible_simulation_count": 160,
+    "mean_added_delay_ms": 289.636,
+    "mean_padding_bytes": 270.106,
+    "unique_public_metadata_fraction": 0.0,
+    "interpretation": "Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof."
+  },
+  {
+    "policy": "split_provider",
+    "samples": 160,
+    "seed": 42,
+    "observer_sees_plaintext_simulations": false,
+    "linked_fraction": null,
+    "linked_count": null,
+    "visible_simulation_count": 0,
+    "mean_added_delay_ms": 5.387,
+    "mean_padding_bytes": 0,
+    "unique_public_metadata_fraction": 0.0187,
+    "interpretation": "Linkage accuracy is undefined: attacker cannot observe candidate plaintext simulations. Security depends on providers not colluding."
+  }
+]

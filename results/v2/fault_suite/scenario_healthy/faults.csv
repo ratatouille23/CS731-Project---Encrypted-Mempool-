@@ -1,0 +1,2 @@
+scenario,success,latency_ms,rejected_shares,online_nodes
+healthy,True,2794.171,0,16

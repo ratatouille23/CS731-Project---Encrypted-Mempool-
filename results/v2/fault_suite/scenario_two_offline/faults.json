@@ -1,0 +1,9 @@
+[
+  {
+    "scenario": "two_offline",
+    "success": true,
+    "latency_ms": 2298.308,
+    "rejected_shares": 0,
+    "online_nodes": 14
+  }
+]

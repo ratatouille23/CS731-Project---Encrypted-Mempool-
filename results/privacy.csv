@@ -1,0 +1,6 @@
+policy,samples,seed,observer_sees_plaintext_simulations,linked_fraction,linked_count,visible_simulation_count,mean_added_delay_ms,mean_padding_bytes,unique_public_metadata_fraction,interpretation
+direct,160,42,True,1.0,160,160,5.387,0,0.0187,Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof.
+fixed_padding,160,42,True,0.9875,158,160,5.387,277.025,0.0187,Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof.
+padding_jitter,160,42,True,0.8688,139,160,395.158,270.106,0.0,Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof.
+adaptive,160,42,True,0.9,144,160,289.636,270.106,0.0,Synthetic one-to-one timing+size+sender+fee linkage; low accuracy is not anonymity proof.
+split_provider,160,42,False,,,0,5.387,0,0.0187,Linkage accuracy is undefined: attacker cannot observe candidate plaintext simulations. Security depends on providers not colluding.

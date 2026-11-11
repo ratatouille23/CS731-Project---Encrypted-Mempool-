@@ -1,0 +1,21 @@
+{
+  "malleability": {
+    "attack": "Related-ciphertext malleability; deliberately naive XOR-mask construction",
+    "n": 16,
+    "t": 11,
+    "victim_original_in_finalized_batch": false,
+    "attacker_substituted_related_ciphertext": true,
+    "naive_attack_recovered_original": true,
+    "defended_original_valid": true,
+    "defended_related_ciphertext_rejected_before_share_release": true,
+    "defense": "Fiat-Shamir proof of ElGamal randomness bound to full AEAD envelope, enforced prior to share release; AEAD integrity additionally checked at final opening.",
+    "caveat": "A reproduction of an attack class, not a formal CCA2 proof and not an attack on current Shutter code."
+  },
+  "epoch_key_leak": {
+    "attack": "Naive epoch-key release reveals excluded pending transactions",
+    "excluded_pending_opened_after_epoch_key_release": true,
+    "other_ciphertext_DH_cannot_directly_open_pending": true,
+    "mitigation": "Release verified per-ciphertext DH shares only for finalized batch; no epoch private key release.",
+    "caveat": "Selective decryption costs O(nB) communication; this is not optimized batched threshold encryption."
+  }
+}

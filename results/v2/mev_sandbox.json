@@ -1,0 +1,11 @@
+{
+  "scenario": "simulated constant-product DEX, not historical loss data",
+  "victim_quote_in": 50000.0,
+  "attacker_quote_in": 10000.0,
+  "victim_tokens_without_sandwich": 47.48297375815593,
+  "victim_tokens_with_sandwich": 46.57064841237257,
+  "victim_tokens_lost": 0.9123253457833584,
+  "bot_quote_profit_before_gas": 942.4023690428585,
+  "privacy_mechanism": "Encrypting victim payload until ordering prevents the bot from conditioning this attack on the unseen trade (under assumptions).",
+  "limitations": "Does not prevent every MEV strategy, collusion or leak from public metadata."
+}

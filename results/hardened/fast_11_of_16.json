@@ -1,0 +1,12 @@
+{
+  "committee": 16,
+  "threshold": 11,
+  "slow_nodes": 5,
+  "configured_delay_ms": 4000,
+  "wall_elapsed_ms": 1005.355,
+  "valid_share_nodes": 11,
+  "post_finality_ms": 854.15,
+  "node_cpu_p50_ms": 76.085,
+  "node_wall_p50_ms": 167.846,
+  "successful_without_waiting_four_seconds": true
+}

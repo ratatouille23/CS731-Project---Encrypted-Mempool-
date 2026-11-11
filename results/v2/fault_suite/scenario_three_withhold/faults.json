@@ -1,0 +1,9 @@
+[
+  {
+    "scenario": "three_withhold",
+    "success": true,
+    "latency_ms": 2533.416,
+    "rejected_shares": 0,
+    "online_nodes": 16
+  }
+]

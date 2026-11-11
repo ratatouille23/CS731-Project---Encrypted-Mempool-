@@ -1,0 +1,2 @@
+scenario,success,latency_ms,error,online_nodes
+six_offline_fails,False,240.277,Only 10 votes; need 11,10

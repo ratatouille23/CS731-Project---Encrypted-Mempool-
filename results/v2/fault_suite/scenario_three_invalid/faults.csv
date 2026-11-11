@@ -1,0 +1,2 @@
+scenario,success,latency_ms,rejected_shares,online_nodes
+three_invalid,True,2914.581,3,16

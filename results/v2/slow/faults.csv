@@ -1,0 +1,2 @@
+scenario,success,latency_ms,rejected_shares,online_nodes
+slow_committee,True,2817.508,0,16
